@@ -1,0 +1,55 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar,.footer,.hero{
+    background-color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    color: #E5E7EB;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+}
+
+.hero p {
+    color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+
+}
