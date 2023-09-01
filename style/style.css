@@ -2,6 +2,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar,.footer,.hero{
     background-color: #1F2937;
 }
@@ -16,6 +21,11 @@
     padding: 8px;
     color: #E5E7EB;
 }
+.logo {
+    width: 80px;
+    height: 80px;
+    justify-content: flex-start;
+}
 
 .navbar ul {
     display: flex;
@@ -24,6 +34,7 @@
     gap: 8px;
     font-size: 18px;
     font-weight: 100;
+
 }
 
 ul {
@@ -43,13 +54,26 @@ ul {
     color: #E5E7EB;
 }
 
+.hero img {
+    height: 300px;
+    width: 600px;
+    margin: 32px;
+}
+
 .signup {
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
 }
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-.description {
-
+.item img {
+    height: 250px;
+    width: 250px;
+    margin: 32px;
+    border-radius: 5%;
 }
