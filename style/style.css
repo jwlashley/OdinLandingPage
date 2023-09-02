@@ -78,6 +78,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 18px;
 }
 
 .content h1 {
@@ -97,9 +98,49 @@ ul {
 }
 
 .testimonial {
+    justify-content: center;
     padding: 128px;
+}
+
+.testimonial h2 {
+    font-weight: 1
 }
 
 .testimonial p {
     text-align: right;
+    font-weight: 800;
+}
+
+.action {
+    display: flex;
+    padding: 32px;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 20px 128px;
+    
+}
+
+.card .text {
+    color:#E5E7EB;
+}
+
+.card button {
+    border: #E5E7EB;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 4px 16px;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #E5E7EB
 }
