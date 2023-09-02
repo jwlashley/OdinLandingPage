@@ -17,19 +17,19 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 8px;
     color: #E5E7EB;
 }
 .logo {
     width: 80px;
     height: 80px;
-    justify-content: flex-start;
 }
 
 .navbar ul {
     display: flex;
-    margin: 0px;
+    justify-content: end;
+    margin: 8px;
     padding: 0px;
     gap: 8px;
     font-size: 18px;
@@ -48,16 +48,20 @@ ul {
 
 .hero h1 {
     color: #F9FAF8;
+    margin-left: 32px;
+    margin-top: 100px;
 }
 
 .hero p {
     color: #E5E7EB;
+    margin-left: 32px;
 }
 
 .hero img {
     height: 300px;
     width: 600px;
     margin: 32px;
+    border-radius: 5%;
 }
 
 .signup {
@@ -65,15 +69,37 @@ ul {
     color: #E5E7EB;
     display: flex;
     justify-content: space-around;
+    padding: 15px;
+    border-radius: 13%;
+    margin-left: 32px;
+    border: none;
 }
 .content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+.content h1 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
 .item img {
+    flex-shrink: 2;
     height: 250px;
     width: 250px;
     margin: 32px;
     border-radius: 5%;
+}
+.item p {
+    text-align: center;
+}
+
+.testimonial {
+    padding: 128px;
+}
+
+.testimonial p {
+    text-align: right;
 }
